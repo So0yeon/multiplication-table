@@ -77,7 +77,7 @@
           <li><i class="fa-solid fa-check" style="color: var(--color-secondary);"></i> 상점에서 3D 블록을 잠금 해제해요.</li>
           <li><i class="fa-solid fa-check" style="color: var(--color-secondary);"></i> 하단 도구함에서 <strong>설치</strong> 모드를 켭니다.</li>
           <li><i class="fa-solid fa-check" style="color: var(--color-secondary);"></i> 마우스로 하늘색 격자 판을 클릭하여 설치!</li>
-          <li><i class="fa-solid fa-check" style="color: var(--color-secondary);"></i> 회전은 <strong>관찰(카메라)</strong> 모드나 마우스 오른쪽 드래그로 조절해요.</li>
+          <li><i class="fa-solid fa-check" style="color: var(--color-secondary);"></i> 화면은 <strong>보기</strong> 모드나 마우스 오른쪽 드래그로 둘러볼 수 있어요.</li>
         </ul>
       </div>
     </aside>
@@ -87,29 +87,29 @@
       <!-- Floating Tutorial info inside the scene -->
       <div id="tutorial-overlay">
         <h4><i class="fa-solid fa-wand-magic-sparkles"></i> 3D 조작 방법</h4>
-        <div><i class="fa-solid fa-arrows-to-eye"></i><span>마우스 회전: 화면 드래그</span></div>
-        <div><i class="fa-solid fa-magnifying-glass-plus"></i><span>확대/축소: 마우스 휠 스크롤</span></div>
-        <div><i class="fa-solid fa-arrows-up-down-left-right"></i><span>화면 이동: Ctrl + 드래그</span></div>
+        <div><i class="fa-solid fa-arrows-to-eye"></i><span>화면 돌려보기: 드래그하기</span></div>
+        <div><i class="fa-solid fa-magnifying-glass-plus"></i><span>가깝게/멀리: 휠 굴리기</span></div>
+        <div><i class="fa-solid fa-arrows-up-down-left-right"></i><span>화면 밀기: Ctrl + 드래그</span></div>
       </div>
 
       <!-- Floating Build Toolbar overlay -->
       <div class="build-overlay">
         <div class="tool-group">
           <!-- View / Rotate Camera -->
-          <button class="tool-btn active" data-mode="view" title="카메라 회전 및 관찰">
-            <i class="fa-solid fa-eye"></i>
+          <button class="tool-btn active" data-mode="view" title="보기">
+            <i class="fa-solid fa-eye"></i><span>보기</span>
           </button>
           <!-- Build Block -->
-          <button class="tool-btn" data-mode="build" title="블록 설치">
-            <i class="fa-solid fa-hammer"></i>
+          <button class="tool-btn" data-mode="build" title="짓기">
+            <i class="fa-solid fa-hammer"></i><span>짓기</span>
           </button>
           <!-- Paint Block -->
-          <button class="tool-btn" data-mode="paint" title="블록 색칠">
-            <i class="fa-solid fa-paint-brush"></i>
+          <button class="tool-btn" data-mode="paint" title="칠하기">
+            <i class="fa-solid fa-paint-brush"></i><span>칠하기</span>
           </button>
           <!-- Erase Block -->
-          <button class="tool-btn" data-mode="erase" title="블록 지우기">
-            <i class="fa-solid fa-eraser"></i>
+          <button class="tool-btn" data-mode="erase" title="지우기">
+            <i class="fa-solid fa-eraser"></i><span>지우기</span>
           </button>
         </div>
 

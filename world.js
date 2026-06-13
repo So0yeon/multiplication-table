@@ -195,7 +195,7 @@ class BlockWorld {
 
       // Calculate grid coordinate position on top of the face we intersected
       const position = new THREE.Vector3();
-      position.copy(intersect.point).add(intersect.face.normal);
+      position.copy(intersect.point).addScaledVector(intersect.face.normal, 0.5);
       
       // Snap to grid
       const snappedX = Math.floor(position.x) + 0.5;
@@ -240,7 +240,7 @@ class BlockWorld {
 
         // Position grid snap
         const position = new THREE.Vector3();
-        position.copy(intersect.point).add(intersect.face.normal);
+        position.copy(intersect.point).addScaledVector(intersect.face.normal, 0.5);
         
         const snappedX = Math.floor(position.x) + 0.5;
         const snappedY = Math.max(0.5, Math.floor(position.y) + 0.5);
