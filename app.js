@@ -1,7 +1,7 @@
 const SHOP_ITEMS = [
   { id: 'cube', name: '기본 큐브', type: 'cube', price: 0, emoji: null },
   { id: 'sphere', name: '알록달록 공', type: 'sphere', price: 20, emoji: '⚽' },
-  { id: 'cone', name: '원뿔 지붕', type: 'cone', price: 30, emoji: null },
+  { id: 'cone', name: '뾰족 지붕', type: 'cone', price: 30, emoji: null },
   { id: 'cylinder', name: '둥근 기둥', type: 'cylinder', price: 40, emoji: null },
   { id: 'tree', name: '귀여운 나무', type: 'cylinder', price: 50, emoji: '🌳' },
   { id: 'star_box', name: '별나라 상자', type: 'cube', price: 30, emoji: '⭐' },
