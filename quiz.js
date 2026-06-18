@@ -41,9 +41,9 @@ class MultiplicationQuiz {
     const isCorrect = parseInt(userAnswer) === this.currentAnswer;
     if (isCorrect) {
       this.combo++;
-      // Base reward is 10 coins, + combo bonus (max 10 extra coins)
+      // Base reward is 2 coins, + combo bonus (max 10 extra coins)
       const bonus = Math.min(Math.floor(this.combo / 3), 10);
-      const reward = 10 + bonus;
+      const reward = 2 + bonus;
       this.onCorrect(reward, this.combo);
     } else {
       this.combo = 0;
