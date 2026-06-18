@@ -24,7 +24,7 @@ const PRESETS = [
 
 class GameManager {
   constructor() {
-    this.coins = 100; // start with some coins for playability
+    this.coins = 0; // start with some coins for playability
     this.unlockedItems = ['cube'];
     this.selectedItemId = 'cube';
     
